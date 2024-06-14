@@ -2,7 +2,7 @@ import pandas as pd
 from langdetect import detect
 import re
 
-dataset = pd.read_csv('datasets/metootweets.csv', on_bad_lines='skip')
+dataset = pd.read_csv('../datasets/metoo-tweets/metootweets.csv', on_bad_lines='skip')
 
 # dropping empty rows
 dataset.dropna(subset=['text'], inplace=True)

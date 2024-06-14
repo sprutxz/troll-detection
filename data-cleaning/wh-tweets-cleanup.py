@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 
-dataset = pd.read_csv('datasets/WHtweets.csv')
+dataset = pd.read_csv('../datasets/wh-tweets/WHtweets.csv')
 
 #dropping columns with majority NA values
 for column in dataset.columns:
