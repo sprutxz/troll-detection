@@ -14,6 +14,7 @@ torch = {version = "2.3.1+cu121", source = "torch"}
 transformers = "^4.41.2"
 langdetect = "^1.0.9"
 scikit-learn = "^1.5.0"
+accelerate = "^0.31.0"
 
 
 [[tool.poetry.source]]
